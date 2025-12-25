@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    background: #1a1a1a;
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame {
+    overflow: hidden;
+    border: 3px solid #006f44;
+    border-style: solid;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+                linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+}
+}
+
+.nav-text {
+    position: absolute;
+    top: 74px;
+    left: 621px;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 10;
+    display: flex;
+    gap: 150px;
+}
+
+.nav-text a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-text a:hover {
+    color: #006f44;
+}
+
+.nav-text .active {
+    font-weight: bold;
+    color: #006f44;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 22px;
+    width: 285px;
+    height: 285px;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.special-title {
+    position: absolute;
+    top: 376px;
+    left: 171px;
+    width: 253px;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.menu-container {
+    position: absolute;
+    top: 434px;
+    left: 165px;
+    width: 791px;
+    height: 79px;
+    display: flex;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.menu-text {
+    width: 791px;
+    height: 122px;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin: 0;
+    transition: margin-top 0.5s ease;
+}
+
+.description {
+    position: absolute;
+    top: 559px;
+    left: 171px;
+    width: 597px;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+/* Bottom Food Images */
+.food-img {
+    position: absolute;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    z-index: 10;
+}
+
+.biryani-img {
+    top: 705px;
+    left: 95px;
+    width: 220px;
+    height: 220px;
+}
+
+.kebab-img {
+    top: 730px;
+    left: 345px;
+    width: 170px;
+    height: 170px;
+}
+
+.prawns-img {
+    top: 730px;
+    left: 545px;
+    width: 170px;
+    height: 170px;
+}
+
+.mutton-img {
+    top: 730px;
+    left: 745px;
+    width: 170px;
+    height: 170px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    position: absolute;
+    top: 950px;
+    left: 165px;
+    width: 75px;
+    height: 10px;
+    background: #ff0000;
+    transition: left 0.5s ease;
+    z-index: 1000;
+    border-radius: 2px;
+}
+
+/* Rotating Container */
+.rotating-container {
+    position: absolute;
+    top: -213px;
+    left: 869px;
+    width: 2057px;
+    height: 2009px;
+    transform: rotate(-8.95deg);
+    transition: transform 1s ease;
+    z-index: 1;
+}
+
+.circle-bg {
+    position: absolute;
+    top: 285px;
+    left: 285px;
+    width: 1440px;
+    height: 1440px;
+    background: #a8a8a8;
+    border-radius: 720px;
+    transform: rotate(35.59deg);
+}
+
+.bg-img {
+    position: absolute;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.bg-biryani {
+    top: 287px;
+    left: 61px;
+    width: 794px;
+    height: 794px;
+    transform: rotate(8.95deg);
+}
+
+.bg-kebab {
+    top: 145px;
+    left: 1237px;
+    width: 650px;
+    height: 650px;
+    transform: rotate(116.28deg);
+}
+
+.bg-mutton {
+    top: 1311px;
+    left: 408px;
+    width: 565px;
+    height: 565px;
+    transform: rotate(285.89deg);
+}
+
+.bg-prawns {
+    top: 1300px;
+    left: 1300px;
+    width: 650px;
+    height: 650px;
+    transform: rotate(206.06deg);
+}

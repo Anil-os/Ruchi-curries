@@ -1,0 +1,106 @@
+import React from "react";
+import biriyaniRemovebgPreview2 from "./biriyani-removebg-preview-2.png";
+import biriyaniRemovebgPreview3 from "./biriyani-removebg-preview-3.png";
+import kebabRemovebgPreview1 from "./kebab-removebg-preview-1.png";
+import kebabRemovebgPreview2 from "./kebab-removebg-preview-2.png";
+import muttonRemovebgPreview1 from "./mutton-removebg-preview-1.png";
+import muttonRemovebgPreview2 from "./mutton-removebg-preview-2.png";
+import prawnsRemovebgPreview1 from "./prawns-removebg-preview-1.png";
+import prawnsRemovebgPreview2 from "./prawns-removebg-preview-2.png";
+import ruchiRemovebgPreview1 from "./ruchi-removebg-preview-1.png";
+
+export const Element = () => {
+  return (
+    <div className="overflow-hidden border-[3px] border-solid border-[#006f44] bg-[linear-gradient(0deg,rgba(0,0,0,0.2)_0%,rgba(0,0,0,0.2)_100%),linear-gradient(0deg,rgba(255,255,255,1)_0%,rgba(255,255,255,1)_100%)] w-full min-w-[1728px] min-h-[1117px] relative">
+      <div className="absolute top-[74px] left-[621px] w-[959px] [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal]">
+        Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About
+        us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
+      </div>
+
+      <img
+        className="absolute top-0 left-[22px] w-[285px] h-[285px] aspect-[1] object-cover"
+        alt="Ruchi removebg"
+        src={ruchiRemovebgPreview1}
+      />
+
+      <div className="absolute top-[376px] left-[171px] w-[253px] [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal] whitespace-nowrap">
+        Today’s Special
+      </div>
+
+      <p className="absolute top-[537px] left-[171px] w-[597px] [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-2xl tracking-[0] leading-[normal]">
+        prawns cooked in rich butter and aromatic garlic, gently seasoned with
+        herbs, pepper, and a hint of spice. Finished with a splash of lemon for
+        a fresh, savoury flavour, this dish is light, juicy, and perfect as a
+        starter or side.
+      </p>
+
+      <img
+        className="top-[719px] left-[107px] w-[202px] h-[202px] absolute aspect-[1] object-cover"
+        alt="Biriyani removebg"
+        src={biriyaniRemovebgPreview2}
+      />
+
+      <img
+        className="top-[719px] left-[286px] w-[202px] h-[202px] absolute aspect-[1] object-cover"
+        alt="Kebab removebg"
+        src={kebabRemovebgPreview1}
+      />
+
+      <img
+        className="top-[719px] left-[644px] w-[202px] h-[202px] absolute aspect-[1] object-cover"
+        alt="Mutton removebg"
+        src={muttonRemovebgPreview1}
+      />
+
+      <img
+        className="top-[688px] left-[433px] w-[271px] h-[271px] absolute aspect-[1] object-cover"
+        alt="Prawns removebg"
+        src={prawnsRemovebgPreview1}
+      />
+
+      <div className="absolute top-[942px] left-[525px] w-[68px] h-2 bg-[#f10e0e]" />
+
+      <div className="absolute top-[-213px] left-[869px] w-[2057px] h-[2009px] rotate-[153.94deg]">
+        <div className="absolute top-[285px] left-[285px] w-[1440px] h-[1440px] bg-[#a8a8a8] rounded-[720px] rotate-[-324.41deg]" />
+
+        <img
+          className="top-[1049px] left-[2994px] w-[650px] h-[650px] rotate-[-153.94deg] absolute aspect-[1] object-cover"
+          alt="Biriyani removebg"
+          src={biriyaniRemovebgPreview3}
+        />
+
+        <img
+          className="top-[859px] left-[1298px] w-[342px] h-9 rotate-[-153.94deg] absolute aspect-[1] object-cover"
+          alt="Kebab removebg"
+          src={kebabRemovebgPreview2}
+        />
+
+        <img
+          className="top-[1477px] left-[905px] w-[18px] h-[333px] rotate-[-153.94deg] absolute aspect-[1] object-cover"
+          alt="Mutton removebg"
+          src={muttonRemovebgPreview2}
+        />
+
+        <img
+          className="top-[1185px] left-[1290px] w-[676px] h-[676px] rotate-[-153.94deg] absolute aspect-[1] object-cover"
+          alt="Prawns removebg"
+          src={prawnsRemovebgPreview2}
+        />
+      </div>
+
+      <div className="top-[435px] left-[171px] absolute w-[791px] h-[79px]" />
+
+      <div className="top-[458px] left-[170px] flex overflow-hidden absolute w-[791px] h-[79px]">
+        <p className="mt-[-155px] w-[791px] h-[122px] -ml-px [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-[64px] tracking-[0] leading-[normal]">
+          Hyderabadi Chicken Biryani
+          <br />
+          Chicken Kebab
+          <br />
+          Butter Garlic Prawns
+          <br />
+          Mutton Curry
+        </p>
+      </div>
+    </div>
+  );
+};

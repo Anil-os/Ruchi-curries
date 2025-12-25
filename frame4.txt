@@ -1,0 +1,104 @@
+import React from "react";
+import biriyaniRemovebgPreview2 from "./biriyani-removebg-preview-2.png";
+import biriyaniRemovebgPreview3 from "./biriyani-removebg-preview-3.png";
+import kebabRemovebgPreview1 from "./kebab-removebg-preview-1.png";
+import kebabRemovebgPreview2 from "./kebab-removebg-preview-2.png";
+import muttonRemovebgPreview1 from "./mutton-removebg-preview-1.png";
+import muttonRemovebgPreview2 from "./mutton-removebg-preview-2.png";
+import prawnsRemovebgPreview1 from "./prawns-removebg-preview-1.png";
+import prawnsRemovebgPreview2 from "./prawns-removebg-preview-2.png";
+import ruchiRemovebgPreview1 from "./ruchi-removebg-preview-1.png";
+
+export const Element = () => {
+  return (
+    <div className="overflow-hidden border-[3px] border-solid border-[#006f44] bg-[linear-gradient(0deg,rgba(0,0,0,0.2)_0%,rgba(0,0,0,0.2)_100%),linear-gradient(0deg,rgba(255,255,255,1)_0%,rgba(255,255,255,1)_100%)] w-full min-w-[1728px] min-h-[1117px] relative">
+      <div className="absolute top-[74px] left-[621px] w-[959px] [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal]">
+        Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About
+        us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
+      </div>
+
+      <img
+        className="absolute top-0 left-[22px] w-[285px] h-[285px] aspect-[1] object-cover"
+        alt="Ruchi removebg"
+        src={ruchiRemovebgPreview1}
+      />
+
+      <div className="absolute top-[376px] left-[171px] w-[253px] [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal] whitespace-nowrap">
+        Today’s Special
+      </div>
+
+      <p className="absolute top-[537px] left-[171px] w-[597px] [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-2xl tracking-[0] leading-[normal]">
+        Tender pieces of mutton slow-cooked in a rich, spicy gravy made with
+        onions, tomatoes, and traditional Indian spices. This hearty and
+        flavourful curry has deep aromas and is best enjoyed with steamed rice,
+        roti, or naan.
+      </p>
+
+      <img
+        className="top-[719px] left-[107px] w-[202px] h-[202px] absolute aspect-[1] object-cover"
+        alt="Biriyani removebg"
+        src={biriyaniRemovebgPreview2}
+      />
+
+      <img
+        className="top-[719px] left-[286px] w-[202px] h-[202px] absolute aspect-[1] object-cover"
+        alt="Kebab removebg"
+        src={kebabRemovebgPreview1}
+      />
+
+      <img
+        className="top-[688px] left-[612px] w-[271px] h-[271px] absolute aspect-[1] object-cover"
+        alt="Mutton removebg"
+        src={muttonRemovebgPreview1}
+      />
+
+      <img
+        className="top-[716px] left-[461px] w-[214px] h-[214px] absolute aspect-[1] object-cover"
+        alt="Prawns removebg"
+        src={prawnsRemovebgPreview1}
+      />
+
+      <div className="absolute top-[949px] left-[718px] w-[68px] h-2 bg-[#f10e0e]" />
+
+      <div className="absolute top-[-213px] left-[869px] w-[2057px] h-[2009px] rotate-[74.11deg]">
+        <div className="absolute top-[285px] left-[285px] w-[1440px] h-[1440px] bg-[#a8a8a8] rounded-[720px] rotate-[35.59deg]" />
+
+        <img
+          className="top-[783px] left-[444px] w-11 h-[521px] rotate-[-74.11deg] absolute aspect-[1] object-cover"
+          alt="Biriyani removebg"
+          src={biriyaniRemovebgPreview3}
+        />
+
+        <img
+          className="top-[4630px] left-[-121px] w-[650px] h-[650px] rotate-[-74.11deg] absolute aspect-[1] object-cover"
+          alt="Kebab removebg"
+          src={kebabRemovebgPreview2}
+        />
+
+        <img
+          className="top-[1315px] left-[284px] w-[637px] h-[637px] rotate-[-74.11deg] absolute aspect-[1] object-cover"
+          alt="Mutton removebg"
+          src={muttonRemovebgPreview2}
+        />
+
+        <img
+          className="top-[5636px] left-12 w-[650px] h-[650px] rotate-[-74.11deg] absolute aspect-[1] object-cover"
+          alt="Prawns removebg"
+          src={prawnsRemovebgPreview2}
+        />
+      </div>
+
+      <div className="absolute top-[435px] left-[171px] w-[791px] h-[79px] flex overflow-hidden">
+        <p className="mt-[-218px] w-[791px] h-[122px] -ml-px [font-family:'Times_New_Roman-Regular',Helvetica] font-normal text-black text-[64px] tracking-[0] leading-[normal]">
+          Hyderabadi Chicken Biryani
+          <br />
+          Chicken Kebab
+          <br />
+          Butter Garlic Prawns
+          <br />
+          Mutton Curry
+        </p>
+      </div>
+    </div>
+  );
+};
